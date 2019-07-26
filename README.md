@@ -1,7 +1,7 @@
 # Deep_Learning
 Personal implementations of deep learning algorithms
 
-# Topics that will be covered:
+Topics that will be covered:
 
 # Basic Networks
 - Shallow Neural Networks
