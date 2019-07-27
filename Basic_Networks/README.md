@@ -12,6 +12,14 @@
 Instead of using a for loop to feed images into a neural network. What you do is unrow the red channel of an image, followed by green and blue channels into one giant column like so:
 ![](images/1.jpg)
 
+Where the height of the column is equal to the number of pixels in the image, so in this case a 64x64 image will have 3 channels also, which is 64x64x3 = 12,288 so column height is this value.
+
+And then you axially concatenate these vertical feature vectors that represent one image in column form like so to create a big matrix whose height is the image column height, and whose width is the number of images (or number of image columns that you place side by side):
+![](images/2.jpg)
+
+To handle labels you don’t loop over them either but you arrange them in columns just like above:
+![](images/3.jpg)
+
 ##### Logistic regression cost function
 ##### Gradient Descent
 ##### Derivatives
