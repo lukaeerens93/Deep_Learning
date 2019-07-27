@@ -17,7 +17,7 @@ Explanation:
 Explanation:
 1) Logistic regression is like a single layer neural net (it's equation is: sigmoid(sum(W.T*inputs + bias)) which is then thresholded)
 2) This means model expressibility is limited to simple classification problems on linearly seperable data classes
-![](images/3.jpg)
+![](images/3.png)
 3) Remember linear seperability is not just a 2D data thing, but applies to high dimensional data
 4) So when dealing with classification problem, try first something simple like logistic regression before NN
 5) If unhappy with classification performance (unable to build a high fidelity decision boundary), add layers (build deep NN)
