@@ -1,27 +1,19 @@
 # Basic Networks
 ## Table of Contents
-1. [ Description. ](#desc)
-2. [ Usage tips. ](#usage)
+1. [ NN Basics. ](#NN Basics)
+2. [ Binary Classification. ](##binary)
 
-<a name="desc"></a>
+<a name="NN Basics"></a>
 ## 1. Description
 
 sometext
 
-<a name="usage"></a>
+<a name="binary"></a>
 ## 2. Usage tips
 
 sometext
 
 
-Neural Networks and Deep Learning
-Table of contents
-Course summary
-Introduction to deep learning
-What is a (Neural Network) NN?
-Supervised learning with neural networks
-Why is deep learning taking off?
-Neural Networks Basics
 Binary classification
 Logistic regression
 Logistic regression cost function
