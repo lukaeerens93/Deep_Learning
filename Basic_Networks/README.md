@@ -21,6 +21,32 @@ To handle labels you don’t loop over them either but you arrange them in colum
 ![](images/3.jpg)
 
 ##### Logistic regression cost function
+Choosing your cost function (or your loss/error function) has ramifications on your optimization. Andrew Ng gives example with logistic regression where he says that choosing the square error or ½ square error, can lead to create a loss surface that is none convex, and so when you deploy optimization like SGD you may not find the global minimum because of how non-convex and hilly the loss surface is:
+![](images/4.jpg)
+
+So square error / or ½ square error is typically not combined with logistic regression.
+
+If we used this square error, we want the loss to be small, so that difference will need to be small. In the case of logistic regression you want the loss to also be small, but now because of the shape of the sigmoid you want a loss that can be minimized in 2 separate regions where label is either 1 or 0.
+
+What people like to use instead is a loss function that tries to behave in the following way: if the label is 1, make the estimate large, if the label is 0, make the estimate small. Andrew Ng gives an example of one such a function as:
+
+![](images/5.jpg)
+
+Where if y = 1:
+L(y_hat, y) = -( 1*log(y_hat) + 0*log(1 - y_hat) )
+L(y_hat, y) = - log(y_hat)
+
+And if y = 0:
+L(y_hat, y) = -( 0*log(y_hat) + 1*log(1 - y_hat) )
+L(y_hat, y) = - log(1 - y_hat)
+
+So if we want to minimize loss, we want the expressions - log(y_hat)  and  - log(1 - y_hat) to be small, which means that since they are both negative numbers, they should both be huge, so that we have an immense negative number. This in turn means that y_hat should be huge for y = 1 and tiny for y = 0.
+
+Also the cost-function relates to the entire dataset, whereas the loss function relates to a specific training example. The way that we compute the cost-function is by find the average of the sum of all training examples. So it it:
+
+![](images/6.jpg)
+Where the negative value comes from the fact that there is a negative on the Loss function mentioned earlier up the page.
+
 ##### Gradient Descent
 ##### Derivatives
 ##### More Derivatives examples
