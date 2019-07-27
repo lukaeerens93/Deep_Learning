@@ -10,6 +10,7 @@
 
 ##### Logistic regression
 Instead of using a for loop to feed images into a neural network. What you do is unrow the red channel of an image, followed by green and blue channels into one giant column like so:
+![](images/1.jpg)
 
 ##### Logistic regression cost function
 ##### Gradient Descent
