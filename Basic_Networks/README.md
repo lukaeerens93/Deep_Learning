@@ -1,9 +1,9 @@
 # Basic Networks
 ## Table of Contents
-1. [ NN Basics. ](#NN Basics)
+1. [ NN Basics. ](#NNBasics)
 2. [ Binary Classification. ](##binary)
 
-<a name="NN Basics"></a>
+<a name="NNBasics"></a>
 ## 1. Description
 
 sometext
