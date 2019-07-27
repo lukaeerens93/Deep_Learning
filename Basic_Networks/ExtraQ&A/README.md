@@ -29,3 +29,8 @@ Explanation:
 ## 
 
 
+
+
+
+## Links
+Explain when you would use a neural network over logistic regression: https://www.quora.com/When-should-we-use-logistic-regression-and-Neural-Network
