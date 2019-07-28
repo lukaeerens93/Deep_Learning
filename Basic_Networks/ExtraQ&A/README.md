@@ -26,11 +26,19 @@ Explanation:
 
 
 
-## 
+## Explain the Bias/Variance Tradeoff
+Explanation:
+1) Model has bias when not flexible enough to generalize well from data. (Linear parametric algorithms with low complexity like Regression and Naive Bayes have high bias)
+2) Model has variance when sensitive and highly flexible to training data. (Non-Linear non-parametric algorithms with high complexity like Decision trees, Neural Network have high variance)
+![](images/5.jpg)
+3) Keep tradeoff in mind as high bias and low variance algorithms perform well consistently but typically with lower accuracy
+4) Low bias and high variance algorithms have better accuracy but perform inconsistently well
+5) Can find balance of bias and variance by regularizing, pruning, etc.
 
 
 
 
 
 ## Links
-Explain when you would use a neural network over logistic regression: https://www.quora.com/When-should-we-use-logistic-regression-and-Neural-Network
+- Explain when you would use a neural network over logistic regression: https://www.quora.com/When-should-we-use-logistic-regression-and-Neural-Network
+- Explain the bias/variance tradeoff: https://towardsdatascience.com/guide-to-choosing-hyperparameters-for-your-neural-networks-38244e87dafe
