@@ -9,7 +9,7 @@ Topics that will be covered:
 - Hyperparameters
 - Attention
 
-# Images
+# Vision
 - Convolution Neural Networks
 - Image Classification
 - Object Tracking
@@ -30,12 +30,12 @@ Topics that will be covered:
 - Deep Boltzman Machines
 - Deep Belief Networks
 
-# GANs
-- GANs
-
 # NLP and Speech
 - Transformers
 - BERT
+
+# GANs
+- GANs
 
 # Multimodal Neural Networks
 - Audio-Text
