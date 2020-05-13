@@ -1,24 +1,15 @@
 # Deep_Learning
 Personal implementations of deep learning algorithms
 
-Topics that will be covered:
-
-## Basic Networks
-- Shallow Neural Networks
-- Deep Neural Networks
-- Hyperparameters
-- Attention
-
-## Sequences
-- RNN
-- LSTM
-- GRU
-- 3D CNN
-
-## Classic Architectures
-- Resnet
-- Inception Net
-- Neural Turing Machines
+#### Topics that will be covered:
+| Fundamentals | Classic Architectures |
+| ---------- | ---------- |
+| Shallow NN | Resnet |
+| Deep NN | Inception |
+| Hyperparams | Neural Turing Machines |
+| Attention |  |
+| CNNs |  |
+| RNNs |  |
 
 
 | Vision | NLP & Speech | Multimodal NN | Auto Encoders | Deep Belief Nets |
