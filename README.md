@@ -30,10 +30,10 @@ Topics that will be covered:
 - Neural Turing Machines
 
 
-| Vision | NLP & Speech | Multimodal NN |
-| ----- | ----- | ----- |
-| CNNs | RNN | Audio-Text |
-| Image Classification | GRU | Video-Audio |
-| Object Tracking | LSTM | Video-Text |
-| Semantic Segmentation | Transformers | Hyperspectral-Optical |
-| GANs | BERT | Video-Audio-Text |
+| Vision | NLP & Speech | Multimodal NN | Auto Encoders | Deep Belief Nets
+| ----- | ----- | ----- | ----- | ----- |
+| CNNs | RNN | Audio-Text | Denoising AE | Boltzman Machines |
+| Im. Classification | GRU | Video-Audio | Variational AE | Deep Boltzman Machines |
+| Object Tracking | LSTM | Video-Text | Deep Belief Nets |
+| Sem. Segmentation | Transformers | Hyperspectral-Optical | |
+| GANs | BERT | Video-Audio-Text | |
