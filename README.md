@@ -9,12 +9,6 @@ Topics that will be covered:
 - Hyperparameters
 - Attention
 
-## Vision
-- Convolution Neural Networks
-- Image Classification
-- Object Tracking
-- Semantic Segmentation
-
 ## Sequences
 - RNN
 - LSTM
@@ -30,20 +24,16 @@ Topics that will be covered:
 - Deep Boltzman Machines
 - Deep Belief Networks
 
-## NLP and Speech
-- Transformers
-- BERT
-
-## GANs
-- GANs
-
-## Multimodal Neural Networks
-- Audio-Text
-- Video-Audio
-- Video-Text
-- Hyperspectral-Optical
-
 ## Classic Architectures
 - Resnet
 - Inception Net
 - Neural Turing Machines
+
+
+| Vision | NLP & Speech | Multimodal NN |
+| ----- | ----- | ----- |
+| CNNs | RNN | Audio-Text |
+| Image Classification | GRU | Video-Audio |
+| Object Tracking | LSTM | Video-Text |
+| Semantic Segmentation | Transformers | Hyperspectral-Optical |
+| GANs | BERT | Video-Audio-Text |
