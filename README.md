@@ -11,6 +11,9 @@ Personal implementations of deep learning algorithms
 | CNNs |  |
 | RNNs |  |
 
+| Fundamentals | ---------- | Shallow NN | Deep NN | Hyperparams | Attention | CNNs | RNNs| 
+| Classic Architectures | ---------- | Resnet | Inception | Neural Turing Machines | | | |
+
 
 | Vision | NLP & Speech | Multimodal NN | Auto Encoders | Deep Belief Nets |
 | ----- | ----- | ----- | ----- | ----- |
