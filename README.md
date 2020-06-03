@@ -13,3 +13,6 @@ Personal implementations of deep learning algorithms
 
 
 #### Useful Resources
+| APIs | Deeper Explanations |
+| ----------- | ----------- |
+| [TF2 & Keras Code Examples](https://keras.io/examples/) | [Why Momentum Really Works](https://distill.pub/2017/momentum/) |
