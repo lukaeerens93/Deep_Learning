@@ -3,13 +3,13 @@ Personal implementations of deep learning algorithms
 
 #### Topics that will be covered:
 
-| Vision | NLP & Speech | Multimodal | Auto Encoders | Deep Belief Nets | Exotic NN |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| CNNs | RNNs | Audio-Text | Denoising Auto Encoders | Boltzman Machines | Resnet |
-| Image Classification | GRU | Video-Audio | Variational Auto Encoders | Deep Boltzman Machines | Inception |
-| Object Tracking | LSTM | Video-Text | | Deep Belief Nets | Neural Turing Machines |
-| Semantic Segmentation | Transformers | Hyperspectral-Optical | | | |
-| GANs | BERT | Video-Audio-Text | | | |
+| Vision | NLP & Speech | Multimodal | Exotic NNs | Cool Stuff |
+| ------ | ------ | ------ | ------ | ------ |
+| CNNs | RNNs | Audio-Text | Denoising Auto Encoders | Resnet |
+| Image Classification | GRU | Video-Audio | Variational Auto Encoders | Inception |
+| Object Tracking | LSTM | Video-Text | Boltzman Machines | Neural Turing Machines |
+| Semantic Segmentation | Transformers | Hyperspectral-Optical | Deep Boltzman Machines | |
+| GANs | BERT | Video-Audio-Text | Deep Belief Nets | |
 
 
 #### Useful Resources
